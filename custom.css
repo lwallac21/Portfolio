@@ -1,0 +1,56 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px; 
+    background-color: #f5f5f5;
+  }
+.back {
+    font-family: 'Cabin', sans-serif;
+    background-color: lemonchiffon;
+}
+.flex-wrap {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
+  }
+
+.lbwMain{
+    background: url(Assets/Images/landscape.jpg);
+    background-position: center center;
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgLawrence{
+    max-width: 8rem;
+    max-height: 16rem;
+    overflow: hidden;
+}
+.card {
+    margin-top: 2rem;
+}
+@media only screen and (min-width: 400){
+    .card {
+        height: auto;
+    }
+}
+#sticky-footer {
+    flex-shrink: none;
+  }
+
+audio { 
+    max-height: 40px;
+    max-width: 100%;
+      }
+
+
+.nav-item:hover {
+    transform:scale(1.05)
+}
+
+.layout-social .layout-icon {
+    font-size: 3em;
+}
