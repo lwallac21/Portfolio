@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Scheduling Calendar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/style.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="Assets/moment.min.js" type="text/javascript"></script>
+    <script defer src="Assets/CalendarApp.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Daily Work To-do list</h1>
+            <h3 id = "today-date"></h3>
+    </div>
+    <div class="container pb-3">
+        <div class="row py-1">
+            <div class="col-3">
+                <p>Time-block</p>
+            </div>
+            <div class="col-3">
+                <p class>Add Event</p>
+            </div>
+            <div class="col-3">
+                <p>Scheduled event</p>
+            </div>
+            <div class="col-3">
+                <p>Save to your schedule?</p>
+            </div>
+        </div>
+        <div id="9am" dataset="9" class="row py-1 time borders">
+            <div class="col-3">
+                <p>9:00 am</p>
+            </div>
+            <div class="col-3">
+                <input id="input9"  class="col-xs-3">
+            </div>
+            <div class="col-3">
+                <p id="9"></p>
+            </div>
+            <div class="col-3">
+                <button id="btn9" class="btn btn-primary saveBtn">Save?</button>            </div>
+        </div>
+        <div id="10am" dataset="10" class="row py-1 time borders">
+            <div class="col-3">
+                <p>10:00 am</p>
+            </div>
+            <div class="col-3">
+                <input id="input10" class="col-xs-3">
+            </div>
+            <div class="col-3">
+                <p id="10"></p>
+            </div>
+            <div class="col-3">
+                <button id="btn10" class="btn btn-primary saveBtn">Save?</button>            </div>
+        </div>
+        <div id="11am" dataset="11" class="row py-1 time borders">
+            <div class="col-3">
+                <p>10:00 am</p>
+            </div>
+            <div class="col-3">
+                <input id="input11"  class="col-xs-3">
+            </div>
+            <div class="col-3">
+                <p id="11"></p>
+            </div>
+            <div class="col-3">
+                <button id="btn10" class="btn btn-primary saveBtn">Save?</button>            </div>
+        </div>
+        <div id= "12pm"  dataset="12" class="row py-1 time borders">
+            <div class="col-3">
+                <p>12:00 pm</p>
+            </div>
+            <div class="col-3">
+                <input id="input12" class="col-xs-3">
+            </div>
+            <div class="col-3">
+                <p id="12"></p>
+            </div>
+            <div class="col-3">
+                <button id="btn12" class="btn btn-primary saveBtn">Save?</button>            </div>
+        </div>
+        <div id="1pm" dataset="13" class="row py-1 time borders">
+            <div class="col-3">
+                <p>1:00 pm</p>
+            </div>
+            <div class="col-3">
+                <input id="input13" class="col-xs-3">
+            </div>
+            <div class="col-3">
+                <p id="13"></p>
+            </div>
+            <div class="col 3">
+                <button id="btn13" class="btn btn-primary saveBtn">Save?</button>            </div>
+        </div>
+        <div id="2pm" dataset="14" class="row py-1 time borders">
+            <div class="col-3">
+                <p >2:00 pm</p>
+            </div>
+            <div class="col-3">
+                <input id="input14" class="col-xs-3">
+            </div>
+            <div class="col-3">
+                <p id="14"></p>
+            </div>
+            <div class="col-3">
+                <button id="btn14" class="btn btn-primary saveBtn">Save?</button>            </div>
+        </div>
+        <div id="3pm" dataset="15" class="row py-1 time borders">
+            <div class="col-3">
+                <p>3:00 pm</p>
+            </div>
+            <div class="col-3">
+                <input  id="input15" class="col-xs-3">
+            </div>
+            <div class="col-3">
+                <p id="15"></p>
+            </div>
+            <div class="col 3">
+                <button id="btn15" class="btn btn-primary saveBtn">Save?</button>            </div>
+        </div>
+        <div id="4pm" dataset="16" class="row py-1 time borders">
+            <div class="col-3">
+                <p>4:00 pm</p>
+            </div>
+            <div class="col-3">
+                <input  id="input16" class="col-xs-3">
+            </div>
+            <div class="col-3">
+                <p id="16"></p>
+            </div>
+            <div class="col-3">
+                <button id="btn16" class="btn btn-primary saveBtn">Save?</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

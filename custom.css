@@ -54,3 +54,7 @@ audio {
 .layout-social .layout-icon {
     font-size: 3em;
 }
+
+.landscape {
+    background-image: url("Homework-5/Assets/Images/landscape.jpg");
+}
